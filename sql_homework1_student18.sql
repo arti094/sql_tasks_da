@@ -54,7 +54,7 @@
 --on classes.class = ships.class
 --join outcomes
 --on outcomes.ship = ships.name
---where (result = 'sunk') and (numguns>=8)
+--where (result = 'sunk') and (numguns>=16)
 
 -- Задание 9: Вывести все классы кораблей, выпущенные США (таблица classes, country = 'USA'). Вывод: class
 
